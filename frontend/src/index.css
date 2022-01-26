@@ -249,7 +249,8 @@ img.large {
 /* Form */
 .form {
   max-width: 60rem;
-  margin: 0 auto;
+  margin: 50 auto;
+  margin-top: 5px;
 }
 .form > div {
   display: flex;
