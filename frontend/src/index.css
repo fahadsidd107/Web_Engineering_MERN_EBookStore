@@ -468,3 +468,12 @@ img.large {
 .support-users .unread {
   background-color: #f02020;
 }
+
+.gblist{
+  color: white;
+  text-decoration: underline 2px #ff9900;
+}
+.gblist:hover{
+  color: #ff9900;
+  text-decoration: underline 2px white;
+}
