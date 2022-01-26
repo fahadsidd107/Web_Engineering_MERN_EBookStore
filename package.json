@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basir/amazona.git"
+    "url": "git+https://github.com/fahadsidd107/MERN_Stack_WE_Project_BookVerse"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/basir/amazona/issues"
+    "url": "https://github.com/fahadsidd107/MERN_Stack_WE_Project_BookVerse/issues"
   },
-  "homepage": "https://github.com/basir/amazona#readme",
+  "homepage": "https://github.com/fahadsidd107/MERN_Stack_WE_Project_BookVerse",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "concurrently": "^7.0.0",
