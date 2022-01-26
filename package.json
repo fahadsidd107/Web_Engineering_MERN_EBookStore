@@ -2,7 +2,7 @@
   "name": "Book Verse",
   "type": "module",
   "version": "1.0.0",
-  "description": "Ecommerce website like amazon",
+  "description": "Ecommerce Book Store",
   "main": "index.js",
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
