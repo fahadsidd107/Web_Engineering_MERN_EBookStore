@@ -79,7 +79,7 @@ export default function SearchScreen(props) {
       </div>
       <div className="row top">
         <div className="col-1">
-          <h3>Department</h3>
+          <h3>Genre</h3>
           <div>
             {loadingCategories ? (
               <LoadingBox></LoadingBox>
@@ -149,7 +149,7 @@ export default function SearchScreen(props) {
           ) : (
             <>
               {products.length === 0 && (
-                <MessageBox>No Product Found</MessageBox>
+                <MessageBox>No Genre Selected</MessageBox>
               )}
               <div className="row center">
                 {products.map((product) => (

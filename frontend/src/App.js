@@ -45,7 +45,6 @@ function App() {
   const signoutHandler = () => {
     dispatch(signout());
   };
-
   const productCategoryList = useSelector((state) => state.productCategoryList);
   const {
     loading: loadingCategories,
@@ -84,6 +83,12 @@ function App() {
             ></Route>
           </div>
           <div>
+          <Link to="/search/category/all/name/all/min/0/max/0/rating/0/order/newest/pageNumber/1">
+              Shop
+              {cartItems.length > 0 && (
+                <span className="badge">{cartItems.length}</span>
+              )}
+            </Link>
             <Link to="/cart">
               Cart
               {cartItems.length > 0 && (
