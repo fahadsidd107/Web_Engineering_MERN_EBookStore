@@ -7,8 +7,6 @@
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
     "dev": "nodemon backend/server.js",
-    "client": "npm start --prefix frontend",
-    "both": "concurrently \"npm run dev\" \"npm run client\"",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {

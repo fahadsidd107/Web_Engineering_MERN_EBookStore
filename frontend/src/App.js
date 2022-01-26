@@ -274,7 +274,7 @@ function App() {
    <ul >
      <li><a className="gblist" href="https://github.com/fahadsidd107">Muhammad Fahad Siddiqui</a> (2019-SE-206)</li>
      <li><a className="gblist" href="https://github.com/sharehakhter">Shareh Akhter</a> (2019-SE-232)</li>
-     <li><a className="gblist" href="">Muhammad Khubaib Hussain Zuberi</a> (2019-SE-245)</li>
+     <li><a className="gblist" href="https://github.com/khuberi">Muhammad Khubaib Hussain Zuberi</a> (2019-SE-245)</li>
      <li><a className="gblist" href="https://github.com/shahzaibansari123">Shahzaib Ansari</a> (2019-SE-249)</li>
 <li></li>
 
