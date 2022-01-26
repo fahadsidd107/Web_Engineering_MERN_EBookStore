@@ -31,6 +31,8 @@ import MapScreen from "./screens/MapScreen";
 import DashboardScreen from "./screens/DashboardScreen";
 import SupportScreen from "./screens/SupportScreen";
 import ChatBox from "./components/ChatBox";
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 import logo from "./assets/nrppAb.png";
 
 function App() {
@@ -262,7 +264,16 @@ function App() {
         </main>
         <footer className="row center">
           {userInfo && !userInfo.isAdmin && <ChatBox userInfo={userInfo} />}
-          <div>All right reserved</div>{" "}
+          <div>
+   <h3>Group Member</h3>
+   <ul >
+     <li><a href="https://github.com/fahadsidd107">Muhammad Fahad Siddiqui</a> (2019-SE-206)</li>
+     <li><a href="https://github.com/sharehakhter">Shareh Akhter</a> (2019-SE-232)</li>
+     <li><a href="">Muhammad Khubaib Hussain Zuberi</a> (2019-SE-245)</li>
+     <li><a href="https://github.com/shahzaibansari123">Shahzaib Ansari</a> (2019-SE-249)</li>
+
+   </ul>
+          </div>{" "}
         </footer>
       </div>
     </BrowserRouter>

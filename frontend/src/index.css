@@ -37,6 +37,7 @@ footer {
   grid-area: footer;
   background-color: #000000;
   color: #ffffff;
+  height: fit-content;
 }
 /* Common */
 h1 {
